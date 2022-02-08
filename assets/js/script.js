@@ -114,4 +114,7 @@ const fillCards = (newsd) => {
 if (window.location.pathname.endsWith("/PoioCoins-project/index.html")) {
   getNewsAPI(newsAPI);
   getAPI(API);
+  console.log("Estoy en index");
+}else{
+  console.log("No estoy en index");
 }
