@@ -111,7 +111,7 @@ const fillCards = (newsd) => {
   document.getElementById("cardContainer").innerHTML += cards;
 };
 
-if (window.location.pathname.startsWith("/PoioCoins-project/index.html")) {
+if (window.location.pathname.endsWith("/PoioCoins-project/index.html")) {
   getNewsAPI(newsAPI);
   getAPI(API);
 }
